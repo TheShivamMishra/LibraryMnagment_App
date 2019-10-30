@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/back_ground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-134dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="2dp"
+                android:textSize="40sp"
+                android:text="Enter The Details" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_form"
+                android:padding="15dp"
+                android:textColorHint="#ffffff"
+                android:inputType="textPersonName"
+                android:textColor="#fff"
+                android:hint="Full Name"/>
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:textColorHint="#ffffff"
+                android:background="@drawable/button_form"
+                android:hint="Email"
+                android:textColor="#fff"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:ems="10"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_form"
+                android:padding="15dp"
+                android:textColorHint="#ffffff"
+                android:hint="Phone no"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_form"
+                android:padding="15dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#fff"
+                android:hint="Date"
+                android:inputType="date" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#fff"
+                android:background="@drawable/button_form"
+                android:hint="Batch"
+                android:inputType="text"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:layout_margin="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

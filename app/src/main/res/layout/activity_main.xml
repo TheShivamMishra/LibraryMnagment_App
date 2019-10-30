@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_ground">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/ic_book_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LimO"
+                android:layout_gravity="center"
+                android:textColor="#ffff"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="285dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+                android:text="New User / Register"
+                android:clickable="true"
+                android:onClick="Register_view"
+                android:textSize="20sp"
+                android:padding="16dp"/>
+
+            <Button
+                android:layout_width="285dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+                android:text="Already Register"
+                android:onClick="Login_View"
+                android:clickable="true"
+                android:textSize="20sp"
+                android:padding="16dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

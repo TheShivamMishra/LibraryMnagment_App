@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "180855691353",
+    "firebase_url": "https://libraryapp-2c5e4.firebaseio.com",
+    "project_id": "libraryapp-2c5e4",
+    "storage_bucket": "libraryapp-2c5e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180855691353:android:4ef37238c1601e3bea3948",
+        "android_client_info": {
+          "package_name": "com.example.limo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180855691353-785av3nrusttkv2mta5torh9521aujks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRavyz6JPLXYPkxzNfu1Dfku2VTOQ5fR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180855691353-785av3nrusttkv2mta5torh9521aujks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
